@@ -121,7 +121,7 @@ def find_user(conn, first_name=None, last_name=None, email=None, phone_number=No
     return cur.fetchall()
 
 
-with psycopg2.connect(database="netology_db", user="postgres", password="Darinka1308") as conn:
+with psycopg2.connect(database="netology_db", user="postgres", password="  ") as conn:
     with conn.cursor() as cur:
         create_db(cur)
         print("База данных создана")
